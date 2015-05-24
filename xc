@@ -24,7 +24,8 @@ xkb_symbols "xc" {
   key <CAPS> { [ Escape ] };
   key <ESC>  { [ Caps_Lock ] };
   key <LALT> { [ Control_L, Control_L ] };
-  key <RALT> { [ Alt_L, Alt_L ] };
+  key <RALT> { [ Meta_L, Meta_L ] };
+  key <RWIN> { [ Alt_L, Alt_L ]};
   key <LCTL> { [ Escape ] };
   key <RTSH> { [ BackSpace ] };
 
